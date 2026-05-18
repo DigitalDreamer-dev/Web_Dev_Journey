@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            height: 100vh;
+            background-color: bisque;
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color:#ebce94;
+            border-radius: 8px;
+            padding:80px;
+            width:300px;                    
+        }
+        .single-input{
+            display:flex;
+             /* justify-content: last baseline;  */
+            /* align-content: center; */
+            flex-direction: column;
+            margin-bottom: 10px;
+            width: 350px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color:#ebce94;
+        }
+        .row{
+             display: flex; 
+            /* flex:1; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            flex-direction: row; 
+             gap: 10px;
+            margin: 2px;
+            /* border-radius: 10px; */
+             padding:8px; 
+            /* margin-bottom: 10px; */
+        }
+        button{
+            
+            align-items: center;
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+        button:hover{
+           background-color:darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+      <form>
+        <div class="single-input">
+        <input type="email" name="" id="" placeholder="Email">
+        </div>
+        <div class="row">
+        <input type="text" name=""id="" placeholder="First name">
+        <input type="text" name=""id="" placeholder="Last name">
+        </div>
+        <div class="single-input">
+             <input type="password" name="" id="" placeholder="Password">
+        </div>
+       
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+</body>
+</html>
