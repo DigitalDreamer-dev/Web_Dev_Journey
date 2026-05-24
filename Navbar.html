@@ -47,7 +47,7 @@
         bottom:0;
         left:0;
         width:100%;
-        background-color: #0a65c7;
+        background-color:#0a65c7;
         transform: scaleX(0);
         transition: transform 0.3s ease-in-out;
       }
@@ -68,6 +68,7 @@
         }
         .nav2{
             background-color: #fff;
+            width: 200px;
             padding: 10px;
         }
         .nav2 ul{
@@ -85,29 +86,24 @@
         .nav2 a{           
             text-decoration: none;
             color: #060101;
+            display: block;
             padding: 5px 15px;
-            border-radius:5px;        position:relative;   
+            width :80%;
+            /*border-radius:5px;*/          
         }
-        .nav2 a::after{
-        content:"";
-        position:absolute;
-        height:2px;
-        bottom:0;
-        left:12px;      
-        width:75%;
-        background-color: #0a65c7;
-        transform: scaleX(0);
-        transition: transform 0.3s ease-in-out;
-        }
-        .nav2 a:hover::after{
-            transform: scaleX(1);
+        .nav2 a:hover{
+            background-color: #5d82f2;
+            
+           
         }
         .nav2 .login-btn{
             background-color: #0c51d0;
             color:white;
             border: none;
             padding: 5px 15px;
-            border-radius: 5px;
+            /* border-radius: 5px; */
+            width: 90%;
+            border: #030a62 solid 2px;
             cursor:pointer;
         }
         .nav2 .login-btn:hover{
