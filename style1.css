@@ -1,0 +1,21 @@
+h2{
+    color: rgb(3, 11, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(229, 189, 123);
+    padding: 20px;
+    width: 300px;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+li:hover{
+    background-color: rgb(219, 122, 12);
+    color: white;
+    cursor: pointer;
+}
