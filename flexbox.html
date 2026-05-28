@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <main>
+        <h1>
+            <span>Learning Flexbox</span>
+        </h1>
+        
+        <div class="design"><p>Flexbox is a powerful layout module in CSS that allows you to create flexible and responsive layouts. It provides an efficient way to align and distribute space among items in a container, even when their size is unknown or dynamic.</p>
+        <p>With Flexbox, you can easily control the alignment, direction, order, and spacing of elements within a container. It simplifies the process of creating complex layouts and makes it easier to design responsive websites that adapt to different screen sizes.</p></div>  
+    
+    <div>
+        <h2>Key Concepts of Flexbox</h2>
+        <ul>
+            <li><strong>Flex Container:</strong> The parent element that contains the flex items. It is defined by setting the display property to flex or inline-flex.</li>
+            <li><strong>Flex Items:</strong> The child elements of a flex container. They can be arranged in a row or column, and their size can be adjusted based on the available space.</li>
+            <li><strong>Main Axis:</strong> The primary axis along which the flex items are laid out. It can be horizontal (row) or vertical (column).</li>
+            <li><strong>Cross Axis:</strong> The axis perpendicular to the main axis. It is used for aligning items in the opposite direction.</li>
+            <li><strong>Justify Content:</strong> Controls the alignment of flex items along the main axis.</li>
+            <li><strong>Align Items:</strong> Controls the alignment of flex items along the cross axis.</li>
+            <li><strong>Flex Wrap:</strong> Determines whether flex items should wrap onto multiple lines when there is not enough space.</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Elements used in flex box</h2>
+        <ul>
+            <li><strong>display: flex;</strong> - Defines a flex container and enables flex context for all its direct children.</li>
+            <li><strong>flex-direction:</strong> - Specifies the direction of the main axis (row, column, row-reverse, column-reverse).</li>
+            <li><strong>justify-content:</strong> - Aligns items along the main axis (flex-start, flex-end, center, space-between, space-around).</li>
+            <li><strong>align-items:</strong> - Aligns items along the cross axis (stretch, flex-start, flex-end, center, baseline).</li>
+            <li><strong>flex-wrap:</strong> - Controls whether items should wrap onto multiple lines (nowrap, wrap, wrap-reverse).</li>
+            <li><strong>flex-grow:</strong> - Specifies how much a flex item will grow relative to the rest of the items.</li>
+            <li><strong>flex-shrink:</strong> - Specifies how much a flex item will shrink relative to the rest of the items.</li>
+            <li><strong>flex-basis:</strong> - Specifies the initial size of a flex item before any remaining space is distributed.</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Example of each and every element used in flex box and the effect they show</h2>
+        <p>Here is an example of a simple flexbox layout:</p>
+        <h2> use of display flex element</h2>
+        <h3>Without flex</h3>
+            <div class="item1">1</div>
+            <div class="item1">2</div>
+            <div class="item1">3</div>
+            <h3>With flex</h3>
+        <div class="flexcontainer">
+                                   
+            <div class="item"style="flex-grow:1">1</div>
+            <div class="item" style="flex-grow:2">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+        </div>
+            
+     </div>
+    </main>
+</body>
+</html>
