@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    Max-width: 100%;
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(bgi.avif);
+        background-size: cover;
+        background-position: center;
+        height: 109vh;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    /* background-color: #5c5a5a; */
+   
+}
+.nav_links{
+    display: flex;
+    gap: 70px;
+    
+}
+.nav_Links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+    
+  a{
+    text-decoration: none;
+    color: #eae6e6;
+    font-weight: bold;
+    margin-top: 10px;
+     
+    
+    
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #e6dfdf;
+    margin-top: 10px;
+     font-size: 18px;
+     transition: all 0.3s ease;
+}
+
+a:hover{
+    color: #e09405;
+    text-shadow: 0px 0px 10px #e09405;
+    
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.title{
+    position: absolute;
+    margin-left: 60px;
+    /* align-items:center; */
+    gap:10px;
+}
+
+.brand{
+    font-size:40px;
+    font-weight:bold;
+    color: #e6dfdf;
+}
+
+.tagline{
+    font-size:12px;
+    color: #e6dfdf;
+}
+button{
+    margin-top: 0px;
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: #e09405;
+    color: #e6dfdf;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #df8d09;
+    color: #efedea;
+    box-shadow: 0px 0px 10px #e2c523;
+}
+
+.hero_content{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    color: #e6dfdf;
+}
+.hero_content h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero_content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+   background: linear-gradient(to right, #e69406, #e6dfdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
